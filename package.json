@@ -1,4 +1,5 @@
 {
+  "homepage": "http://nenad-misic.github.io/",
   "name": "cinemax",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
     "webtorrent": "^0.107.17"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
