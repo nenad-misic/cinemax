@@ -1,0 +1,1 @@
+module.exports.api = 'https://yts.mx/api/v2/';
