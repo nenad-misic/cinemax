@@ -91,7 +91,7 @@ class Shows extends Component {
             <div className="input-group col-6 offset-3 mb-3 my-5">
                 <input type="text" className="form-control bg-primary text-light" id="searchInput" value={this.state.inputValue} onChange={this.updateInputValue} placeholder="Search"/>
                 <div className="input-group-append">
-                  <button type="submit" class="btn btn-primary border">Search</button>
+                  <button type="submit" className="btn btn-primary border">Search</button>
                 </div>
               </div>
             </form>

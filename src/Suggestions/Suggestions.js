@@ -63,7 +63,7 @@ class Suggestions extends Component {
             Suggestions:
         </h1>
         
-    <div class="row col-12">
+    <div className="row col-12">
     {
         this.state.movies && this.state.movies.map(e => (
             // <div class="col-lg-6 mb-3 mb-lg-0">
@@ -78,14 +78,14 @@ class Suggestions extends Component {
             // </div>
             
 
-      <div class="col-6 my-5">
+      <div className="col-6 my-5">
       <Link to={`/movie/${e.id}`}>
-        <div class="hover hover-2 text-white rounded">
+        <div className="hover hover-2 text-white rounded">
           <img src={e.background_image_original} alt=""/>
-          <div class="hover-overlay"></div>
-          <div class="hover-2-content px-5 py-4">
-            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0">{e.title_long}</h3>
-            <p class="hover-2-description mb-0">{e.description_full}</p>
+          <div className="hover-overlay"></div>
+          <div className="hover-2-content px-5 py-4">
+            <h3 className="hover-2-title text-uppercase font-weight-bold mb-0">{e.title_long}</h3>
+            <p className="hover-2-description mb-0">{e.description_full}</p>
           </div>
         </div>
       </Link>

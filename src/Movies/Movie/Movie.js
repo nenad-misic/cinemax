@@ -202,7 +202,7 @@ class Movie extends Component {
                   movie &&
                     <div className="col offset-5 col-4 container-fluid">
                       <Link to={`/watch-movie/${movie.id}`}>
-                        <div class="btn btn-success">Watch movie</div>
+                        <div className="btn btn-success">Watch movie</div>
                       </Link>
                     </div>
                 }

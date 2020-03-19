@@ -102,7 +102,7 @@ class Show extends Component {
                 this.state.showTitle && 
                 <iframe allowFullScreen src={this.state.src} className="col-xs-12 col-sm-12 col-md-12 col-lg-12 myh-75"></iframe>
               }
-              <div class="list-group col col-xs-12">
+              <div className="list-group col col-xs-12">
                 {
                     this.state.episodes &&
                     this.state.episodes.map( e => (
