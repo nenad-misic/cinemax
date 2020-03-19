@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.132c353e.chunk.css",
-    "main.js": "/static/js/main.af76d7a3.chunk.js",
-    "main.js.map": "/static/js/main.af76d7a3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d850afaf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d850afaf.js.map",
-    "static/css/2.1fd2b905.chunk.css": "/static/css/2.1fd2b905.chunk.css",
-    "static/js/2.662d8d59.chunk.js": "/static/js/2.662d8d59.chunk.js",
-    "static/js/2.662d8d59.chunk.js.map": "/static/js/2.662d8d59.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5ebc7e4189d2a3bd34addabe6129644b.js": "/precache-manifest.5ebc7e4189d2a3bd34addabe6129644b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.1fd2b905.chunk.css.map": "/static/css/2.1fd2b905.chunk.css.map",
-    "static/css/main.132c353e.chunk.css.map": "/static/css/main.132c353e.chunk.css.map",
-    "static/js/2.662d8d59.chunk.js.LICENSE.txt": "/static/js/2.662d8d59.chunk.js.LICENSE.txt"
+    "main.css": "/cinemax/static/css/main.132c353e.chunk.css",
+    "main.js": "/cinemax/static/js/main.e8639768.chunk.js",
+    "main.js.map": "/cinemax/static/js/main.e8639768.chunk.js.map",
+    "runtime-main.js": "/cinemax/static/js/runtime-main.eb9f3374.js",
+    "runtime-main.js.map": "/cinemax/static/js/runtime-main.eb9f3374.js.map",
+    "static/css/2.1fd2b905.chunk.css": "/cinemax/static/css/2.1fd2b905.chunk.css",
+    "static/js/2.662d8d59.chunk.js": "/cinemax/static/js/2.662d8d59.chunk.js",
+    "static/js/2.662d8d59.chunk.js.map": "/cinemax/static/js/2.662d8d59.chunk.js.map",
+    "index.html": "/cinemax/index.html",
+    "precache-manifest.f89743ff455db652740d81b385363115.js": "/cinemax/precache-manifest.f89743ff455db652740d81b385363115.js",
+    "service-worker.js": "/cinemax/service-worker.js",
+    "static/css/2.1fd2b905.chunk.css.map": "/cinemax/static/css/2.1fd2b905.chunk.css.map",
+    "static/css/main.132c353e.chunk.css.map": "/cinemax/static/css/main.132c353e.chunk.css.map",
+    "static/js/2.662d8d59.chunk.js.LICENSE.txt": "/cinemax/static/js/2.662d8d59.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d850afaf.js",
+    "static/js/runtime-main.eb9f3374.js",
     "static/css/2.1fd2b905.chunk.css",
     "static/js/2.662d8d59.chunk.js",
     "static/css/main.132c353e.chunk.css",
-    "static/js/main.af76d7a3.chunk.js"
+    "static/js/main.e8639768.chunk.js"
   ]
 }
