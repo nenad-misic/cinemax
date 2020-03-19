@@ -6,7 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename="https://nenad-misic.github.io/cinemax/">
     <App />
   </BrowserRouter>
 , document.getElementById('root'));
