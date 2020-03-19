@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2091af5dcb2133e1bb1461286d65995e",
+    "revision": "08af53afb9b3048dd41f677c0880e3a3",
     "url": "/cinemax/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cinemax/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "2c11db792f2764b79b47",
+    "revision": "0ece47b470a2da573dcc",
     "url": "/cinemax/static/css/main.132c353e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cinemax/static/js/2.582dc20a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c11db792f2764b79b47",
-    "url": "/cinemax/static/js/main.b760892b.chunk.js"
+    "revision": "0ece47b470a2da573dcc",
+    "url": "/cinemax/static/js/main.a23b758e.chunk.js"
   },
   {
     "revision": "8a83ed248508ab7f62a8",
