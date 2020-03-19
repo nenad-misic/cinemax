@@ -4,7 +4,7 @@ import axios from 'axios';
 import { compareTwoStrings } from 'string-similarity';
 import { api } from '../Environment/environment';
 
-class Test extends Component {
+class Suggestions extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -79,6 +79,7 @@ class Test extends Component {
             
 
       <div class="col-6 my-5">
+      <Link to={`/movie/${e.id}`}>
         <div class="hover hover-2 text-white rounded">
           <img src={e.background_image_original} alt=""/>
           <div class="hover-overlay"></div>
@@ -87,6 +88,7 @@ class Test extends Component {
             <p class="hover-2-description mb-0">{e.description_full}</p>
           </div>
         </div>
+      </Link>
       </div>
     ))
     }
@@ -95,4 +97,4 @@ class Test extends Component {
     )
   }
 }
-export default Test;
+export default Suggestions;
