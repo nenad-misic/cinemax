@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/cinemax/static/css/main.132c353e.chunk.css",
-    "main.js": "/cinemax/static/js/main.a31c2bad.chunk.js",
-    "main.js.map": "/cinemax/static/js/main.a31c2bad.chunk.js.map",
+    "main.js": "/cinemax/static/js/main.b760892b.chunk.js",
+    "main.js.map": "/cinemax/static/js/main.b760892b.chunk.js.map",
     "runtime-main.js": "/cinemax/static/js/runtime-main.eb9f3374.js",
     "runtime-main.js.map": "/cinemax/static/js/runtime-main.eb9f3374.js.map",
     "static/css/2.1fd2b905.chunk.css": "/cinemax/static/css/2.1fd2b905.chunk.css",
-    "static/js/2.662d8d59.chunk.js": "/cinemax/static/js/2.662d8d59.chunk.js",
-    "static/js/2.662d8d59.chunk.js.map": "/cinemax/static/js/2.662d8d59.chunk.js.map",
+    "static/js/2.582dc20a.chunk.js": "/cinemax/static/js/2.582dc20a.chunk.js",
+    "static/js/2.582dc20a.chunk.js.map": "/cinemax/static/js/2.582dc20a.chunk.js.map",
     "index.html": "/cinemax/index.html",
-    "precache-manifest.85b3b5c935ee619e3ae2adb23433e5e2.js": "/cinemax/precache-manifest.85b3b5c935ee619e3ae2adb23433e5e2.js",
+    "precache-manifest.29e96fd79f69b8c216dcd5e9c8db46f5.js": "/cinemax/precache-manifest.29e96fd79f69b8c216dcd5e9c8db46f5.js",
     "service-worker.js": "/cinemax/service-worker.js",
     "static/css/2.1fd2b905.chunk.css.map": "/cinemax/static/css/2.1fd2b905.chunk.css.map",
     "static/css/main.132c353e.chunk.css.map": "/cinemax/static/css/main.132c353e.chunk.css.map",
-    "static/js/2.662d8d59.chunk.js.LICENSE.txt": "/cinemax/static/js/2.662d8d59.chunk.js.LICENSE.txt"
+    "static/js/2.582dc20a.chunk.js.LICENSE.txt": "/cinemax/static/js/2.582dc20a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eb9f3374.js",
     "static/css/2.1fd2b905.chunk.css",
-    "static/js/2.662d8d59.chunk.js",
+    "static/js/2.582dc20a.chunk.js",
     "static/css/main.132c353e.chunk.css",
-    "static/js/main.a31c2bad.chunk.js"
+    "static/js/main.b760892b.chunk.js"
   ]
 }
