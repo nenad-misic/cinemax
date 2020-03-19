@@ -78,7 +78,7 @@ class Suggestions extends Component {
             // </div>
             
 
-      <div className="col-6 my-5">
+      <div key={e.id} className="col-6 my-5">
       <Link to={`/movie/${e.id}`}>
         <div className="hover hover-2 text-white rounded">
           <img src={e.background_image_original} alt=""/>
