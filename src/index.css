@@ -332,6 +332,7 @@ code {
 
 
 .hover-2 .hover-overlay {
+  border: 2px solid white;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
 }
 
