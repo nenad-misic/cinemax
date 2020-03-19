@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cinemax/static/css/main.d498bfb3.chunk.css",
-    "main.js": "/cinemax/static/js/main.e4d000e6.chunk.js",
-    "main.js.map": "/cinemax/static/js/main.e4d000e6.chunk.js.map",
+    "main.js": "/cinemax/static/js/main.9e195954.chunk.js",
+    "main.js.map": "/cinemax/static/js/main.9e195954.chunk.js.map",
     "runtime-main.js": "/cinemax/static/js/runtime-main.eb9f3374.js",
     "runtime-main.js.map": "/cinemax/static/js/runtime-main.eb9f3374.js.map",
     "static/css/2.1fd2b905.chunk.css": "/cinemax/static/css/2.1fd2b905.chunk.css",
     "static/js/2.662d8d59.chunk.js": "/cinemax/static/js/2.662d8d59.chunk.js",
     "static/js/2.662d8d59.chunk.js.map": "/cinemax/static/js/2.662d8d59.chunk.js.map",
     "index.html": "/cinemax/index.html",
-    "precache-manifest.3712ca2cbbb49df93e4623bf21fa9a02.js": "/cinemax/precache-manifest.3712ca2cbbb49df93e4623bf21fa9a02.js",
+    "precache-manifest.31602db49c25a227658558a47b38b16d.js": "/cinemax/precache-manifest.31602db49c25a227658558a47b38b16d.js",
     "service-worker.js": "/cinemax/service-worker.js",
     "static/css/2.1fd2b905.chunk.css.map": "/cinemax/static/css/2.1fd2b905.chunk.css.map",
     "static/css/main.d498bfb3.chunk.css.map": "/cinemax/static/css/main.d498bfb3.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.1fd2b905.chunk.css",
     "static/js/2.662d8d59.chunk.js",
     "static/css/main.d498bfb3.chunk.css",
-    "static/js/main.e4d000e6.chunk.js"
+    "static/js/main.9e195954.chunk.js"
   ]
 }
