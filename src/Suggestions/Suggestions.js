@@ -83,7 +83,7 @@ class Suggestions extends Component {
         <div className="hover hover-2 text-white rounded">
           <img src={e.background_image_original} alt=""/>
           <div className="hover-overlay"></div>
-          <div className="hover-2-content px-5 py-4">
+          <div className="hover-2-content py-4">
             <h3 className="hover-2-title text-uppercase font-weight-bold mb-0">{e.title_long}</h3>
             <p className="hover-2-description mb-0">{e.description_full}</p>
           </div>
