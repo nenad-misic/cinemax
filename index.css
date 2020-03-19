@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.caption0 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.caption1 {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+}
+.caption2 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+.carousel__slider {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+}
+.carousel-image{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-video{
+  height: 100%;
+  z-index: 150;
+}
+.carousel{
+  height: fit-content;
+}
+
+.prev-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80%;
+  margin-top: 5%;
+  transform: translate(20%, 0);
+  -ms-transform: translate(0, 0);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width:80px;
+}
+
+.prev-button-image {
+  position: absolute;
+  content: url('./next-gray.png');
+  color:white;
+  transform: translate(-50%, -50%) rotate(180deg);
+  width:40px;
+  top: 50%;
+  opacity: 0.5;
+}
+.prev-button:hover * {
+  opacity: 1 !important;
+}
+
+.next-button {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 80%;
+  margin-top: 5%;
+  border: 3px solid white;
+  transform: translate(-120%, 0);
+  -ms-transform: translate(0, 0);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width:80px;
+}
+
+.next-button-image {
+  position: absolute;
+  content: url('./next-gray.png');
+  color:white;
+  transform: translate(-50%, -50%);
+  width:40px;
+  top: 50%;
+  opacity: 0.5;
+  z-index: 50;
+}
+.next-button:hover * {
+  opacity: 1 !important;
+}
+
+.button-control {
+  position: absolute;
+  transform: translate(-50%, 0);
+  z-index: 100;
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  width: 100%;
+  height: 100%;
+}
+
+.outer {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.biggerp {
+  margin: 2px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.smallerp {
+  margin-top: 0;
+  font-size: 10px;
+  line-height: 1em;
+}
+
+.cast-image {
+  width: 40px;
+  border-radius: 5px;
+}
+
+
+.movie-image-container{
+  overflow: hidden;
+}
+.movie-image:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: transform .2s; /* Animation */
+}
+
+
+.prev-button-similar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80%;
+  margin-top: 5%;
+  transform: translate(-80%, 0);
+  -ms-transform: translate(0, 0);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width:80px;
+}
+
+
+.prev-button-image-similar {
+  position: absolute;
+  content: url('./next-gray.png');
+  color:white;
+  transform: translate(-70%, -50%) rotate(180deg);
+  width:40px;
+  top: 50%;
+  opacity: 0.5;
+}
+.prev-button-similar:hover * {
+  opacity: 1 !important;
+}
+
+.next-button-similar {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 80%;
+  margin-top: 5%;
+  border: 3px solid white;
+  transform: translate(-20%, 0);
+  -ms-transform: translate(0, 0);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width:80px;
+}
+
+.next-button-image-similar {
+  position: absolute;
+  content: url('./next-gray.png');
+  color:white;
+  transform: translate(-50%, -50%);
+  width:40px;
+  top: 50%;
+  opacity: 0.5;
+  z-index: 50;
+}
+.next-button-similar:hover * {
+  opacity: 1 !important;
+}
+.button-control-similar {
+  position: absolute;
+  transform: translate(-50%, 0);
+  z-index: 100;
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  width: 100%;
+  height: 100%;
+}
+
+.myh-75{
+  min-height: 75vh;
+  border: none;
+}
+
+.imaz {
+  border-radius: 2%;
+}
+
+.teksta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+.cnt {
+  position: relative;
+  text-align: center;
+}
+
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-1 img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  transition: all 0.3s;
+}
+
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-1:hover img {
+  
+  left: 0;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+
+.hover-2 .hover-overlay {
+  border: 2px solid white;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+.hover-2-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2:hover .hover-2-title {
+  transform: translateY(-1.5rem);
+}
+
+.hover-2:hover .hover-2-description {
+  bottom: 0.5rem;
+  opacity: 1;
+}
+
+.hover-2:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+  
+}
+
